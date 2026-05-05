@@ -30,11 +30,7 @@ Dari analisis tersebut, saya menyimpulkan bahwa pendekatan yang saya gunakan har
 
 ## Perbandingan Histogram
 
-### Sebelum
-![hist_before](output/hist_before.png)
-
-### Sesudah
-![hist_after](output/hist_after.png)
+![alt text](image.png)
 
 ---
 
