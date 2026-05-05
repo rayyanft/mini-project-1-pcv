@@ -2,7 +2,7 @@
 
 ## Nama
 Rayyan Fathanza  
-NRP: XXXXXXXX  
+NRP: 5024241056
 
 ---
 
