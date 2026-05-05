@@ -110,8 +110,6 @@ def main():
     result_bgr = cv2.cvtColor(result, cv2.COLOR_RGB2BGR)
     cv2.imwrite("output/lena_restored.png", result_bgr)
 
-    plt.figure(figsize=(10,5))
-
     plt.subplot(1,2,1)
     plt.title("Original")
     plt.imshow(img)
@@ -119,6 +117,22 @@ def main():
     plt.subplot(1,2,2)
     plt.title("Restored")
     plt.imshow(result)
+
+    plt.figure(figsize=(12,5))
+
+    # histogram sebelum
+    plt.subplot(1,2,1)
+    plt.title("Histogram Before")
+    plt.hist(img.flatten(), bins=256, range=[0,256])
+    plt.xlabel("Intensity")
+    plt.ylabel("Frequency")
+
+    # histogram sesudah
+    plt.subplot(1,2,2)
+    plt.title("Histogram After")
+    plt.hist(result.flatten(), bins=256, range=[0,256])
+    plt.xlabel("Intensity")
+    plt.ylabel("Frequency")
 
     plt.show()
 
