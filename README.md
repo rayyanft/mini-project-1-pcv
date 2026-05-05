@@ -42,7 +42,7 @@ Digunakan untuk mengurangi noise warna pada citra hasil.
 ## Hasil
 
 ### Sebelum
-![before](input/lena_noisy.png)
+![before](input/test_image_lena_noisy.png)
 
 ### Sesudah
 ![after](output/lena_restored.png)
