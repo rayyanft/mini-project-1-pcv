@@ -34,7 +34,7 @@ Dilakukan dengan teknik blending untuk meningkatkan kontras tanpa memperkuat noi
 ### 5. Sharpening (Unsharp Masking)
 Digunakan untuk mengembalikan detail citra, namun dengan intensitas rendah agar tidak memperkuat noise.
 
-### 6. Color Quantization (Opsional)
+### 6. Color Quantization
 Digunakan untuk mengurangi noise warna pada citra hasil.
 
 ---
